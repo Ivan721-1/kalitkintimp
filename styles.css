@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc;
+    color: #800020;
+}
+
+header {
+    background-color: #4b0082;
+    color: #dda0dd;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0 auto;
+}
+
+button {
+    background-color: #dda0dd;
+    color: #4b0082;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c71585;
+    color: #fff;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.search-bar input, .search-bar button {
+    margin: 0 10px;
+}
+
+#articles-list {
+    padding: 20px;
+}
+
+#articles-list h3 {
+    cursor: pointer;
+    color: #4b0082;
+}
+
+#articles-list h3:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
